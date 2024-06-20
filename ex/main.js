@@ -71,10 +71,10 @@ posts.forEach((posted) => {
             <div class="post__header">
                 <div class="post-meta">                    
                     <div class="post-meta__icon">
-                        <img class="profile-pic" src="${posted.image}" alt="">                    
+                        <img class="profile-pic" src="${posted.author.image}" alt="">                    
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">${posted.name}</div>
+                        <div class="post-meta__author">${posted.author.name}</div>
                         <div class="post-meta__time">${posted.created}</div>
                     </div>                    
                 </div>
@@ -100,6 +100,8 @@ posts.forEach((posted) => {
 
     </div>`
 } )
+
+
 {/* <div class="post">
             <div class="post__header">
                 <div class="post-meta">                    
