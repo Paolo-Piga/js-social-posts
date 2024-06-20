@@ -63,8 +63,7 @@ const container = document.getElementById(`container`);
 // creo un foreach per l'array
 posts.forEach((posted) => {
     console.log(posted);
-    const {author} = posted;
-    console.log(author);
+    
     
 
     container.innerHTML += `<div class="post">
